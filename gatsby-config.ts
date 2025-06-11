@@ -28,7 +28,7 @@ const config: GatsbyConfig = {
 };
 
 module.exports = {
-  pathPrefix: "/portfolio",
+  pathPrefix: "",
 }
 
 export default config;
