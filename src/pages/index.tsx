@@ -8,13 +8,18 @@ import About from "../components/about"
 export default function LandingPage() {
   return (
     <div>
-      <h1>Welcome to the Portfolio Site</h1>
-      <p>blah blah blah.</p>
+      <div className="text-red-500 text-3xl">Hello Tailwind</div>
+      <nav className="m-5">
+        <div className="m">[CW]</div>
+      </nav>
+      {/* <h1>Welcome to the Portfolio Site</h1>
+      <p>blah blah blah.</p> 
       <Header />
       <About />
       <Skills />
       <Projects />
       <Contact />
+      */}
     </div>
     
   )
