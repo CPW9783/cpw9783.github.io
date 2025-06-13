@@ -2,7 +2,9 @@ import React from "react";
 
 const Skills: React.FC = () => {
     return (
-        <h1>Skills</h1>
+        <div className="flex flex-row w-full items-center h-screen justify-center">
+          <h1 className="text-4xl font-bold">Skills</h1>
+        </div>
     );
 }
 

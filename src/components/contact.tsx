@@ -2,7 +2,9 @@ import React from "react";
 
 const Contact: React.FC = () => {
     return (
-        <h1>Contact</h1>
+        <div className="flex flex-row w-full items-center h-screen justify-center">
+          <h1 className="text-4xl font-bold">Contact</h1>
+        </div>
     );
 }
 
