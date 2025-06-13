@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_gatsby_portfolio=self.webpackChunkmy_gatsby_portfolio||[]).push([[691],{200:function(e,t,l){l.r(t),l.d(t,{default:function(){return o}});var n=l(294);function o(){return n.createElement("div",null,n.createElement("h1",null,"Welcome to the Portfolio Site"),n.createElement("p",null,"blah blah blah."))}}}]);
-//# sourceMappingURL=component---src-pages-index-tsx-3a73962b73f1148958a0.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_gatsby_portfolio=self.webpackChunkmy_gatsby_portfolio||[]).push([[245],{783:function(e,t,a){a.r(t),a.d(t,{default:function(){return n}});var l=a(159);function n(){return l.createElement("div",null,l.createElement("div",{className:"text-red-500 text-3xl"},"Hello Tailwind"),l.createElement("nav",{className:"m-5"},l.createElement("div",{className:"m"},"[CW]")))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-04bc79af4548e0ce248d.js.map
