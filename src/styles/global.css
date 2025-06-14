@@ -6,4 +6,5 @@ html, body {
     background-color: #09141F;
     color: white;
     font-family: Consolas;
+    scroll-behavior: smooth;
 }

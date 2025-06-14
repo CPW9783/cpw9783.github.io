@@ -27,31 +27,31 @@ export default function LandingPage() {
         </nav>
       </div>
       <div className="flex flex-col mx-20">
-        <div id="home">
+        <div id="home" className="scroll-mt-24">
           <Header />
         </div>
         <div>
           <div className="block my-10 h-[3px] w-full bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
         </div>
-        <div id="about">
+        <div id="about" className="scroll-mt-24">
           <About />
         </div>
         <div>
           <div className="block my-10 h-[3px] w-full bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
         </div>
-        <div id="skills">
+        <div id="skills" className="scroll-mt-24">
           <Skills />
         </div>
         <div>
           <div className="block my-10 h-[3px] w-full bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
         </div>
-        <div id="projects">
+        <div id="projects" className="scroll-mt-24">
           <Projects />
         </div>
         <div>
           <div className="block my-10 h-[3px] w-full bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
         </div>
-        <div id="contact">
+        <div id="contact" className="scroll-mt-24">
           <Contact />
         </div>
       </div>
