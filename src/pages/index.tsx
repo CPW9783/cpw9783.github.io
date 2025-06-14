@@ -7,12 +7,12 @@ import About from "../components/About"
 
 export default function LandingPage() {
   return (
-    <div className="mx-20">
+    <div className="flex flex-col px-4 sm:px-6 md:px-10 lg:px-20">
       <div className="flex w-full sticky pb-3 top-0 z-50 bg-[#09141F]">
         <nav className="flex w-full mt-3">
-          <div className="flex ml-20 text-4xl">[CW]</div>
-          <div className="flex justify-end w-full mt-3">
-            <ul className="flex space-x-5 mr-20">
+          <div className="flex justify-center sm:w-full lg:justify-start lg:ml-20 text-4xl">[CW]</div>
+          <div className="hidden lg:flex justify-end w-full mt-3 mr-20">
+            <ul className="flex space-x-5">
               <li><a href="#home">Home</a></li>
               <div>|</div>
               <li><a href="#about">About</a></li>
@@ -26,7 +26,7 @@ export default function LandingPage() {
           </div>
         </nav>
       </div>
-      <div className="flex flex-col mx-20">
+      <div className="flex flex-col px-4 sm:px-6 md:px-10 lg:px-20">
         <div id="home" className="scroll-mt-24">
           <Header />
         </div>

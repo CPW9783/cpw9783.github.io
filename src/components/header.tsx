@@ -4,7 +4,7 @@ import photo from "../images/photo1.jpg";
 
 const Header: React.FC = () => {
   return (
-    <div className="flex flex-row w-full items-center h-screen justify-center">
+    <div className="flex flex-col-reverse lg:flex-row w-full items-center lg:h-screen justify-center">
       <div className="mr-auto">
         <p className="text-3xl">
           /* Hi! My name is,
@@ -14,7 +14,7 @@ const Header: React.FC = () => {
           A software engineering student at RIT. */
         </p>
       </div>
-      <div className="mr-20">
+      <div className="ml-10 lg:mr-20 mt-4 mb-8">
         <img src={photo} alt="Christopher West" width={400} />
       </div>
     </div>
