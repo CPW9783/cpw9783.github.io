@@ -14,7 +14,7 @@ const Header: React.FC = () => {
           A software engineering student at RIT. */
         </p>
       </div>
-      <div className="lg:ml-10 lg:mr-28 mt-4 mb-8">
+      <div className="lg:ml-10 lg:mr-28 mt-4 mb-8 min-w-[300px] md:min-w-[400px]">
         <img src={photo} alt="Christopher West" width={400} />
       </div>
     </div>
