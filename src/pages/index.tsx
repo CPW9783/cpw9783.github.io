@@ -69,37 +69,41 @@ export default function LandingPage() {
 
             {/* Overlay Menu */}
             <div
-              className={`
-              fixed inset-0 bg-black bg-opacity-80 text-white text-2xl 
-              flex flex-col 
-              transition-all duration-700 ease-[cubic-bezier(0.77,0,0.175,1)]
-              ${isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0 scale-95"}
-              pointer-events-${isMenuOpen ? "auto" : "none"}
-              z-40
-              `}
-              style={{
-              transitionProperty: "transform, opacity",
-              willChange: "transform, opacity",
-              }}
-            >
-            <div className="flex flex-col pointer-events-auto overflow-hidden pt-10 sticky top-0">
-              {sectionIds.map((id) => (
-              <div key={id} className="pl-10 my-3">
-                <button
-                onClick={() => scrollToSection(id)}
-                className={`
-                  relative inline-block transition-all duration-300
-                  after:content-[''] after:absolute after:left-0 after:bottom-0
-                  after:h-[2px] after:bg-[#A5BADA] after:transition-all after:duration-300
-                  after:origin-left after:scale-x-0
-                  ${activeSection === id ? "text-[#A5BADA] underline after:scale-x-100" : ""}
-                `}>
-                {id.charAt(0).toUpperCase() + id.slice(1)}
-                </button>
-              </div>
-              ))}
-            </div>
-            </div>
+  className={`
+    fixed inset-0 bg-black bg-opacity-80 text-white text-2xl flex flex-col
+    transition-all duration-700 ease-[cubic-bezier(0.77,0,0.175,1)]
+    z-40
+    ${isMenuOpen 
+      ? "translate-y-0 opacity-100 pointer-events-auto" 
+      : "-translate-y-full opacity-0 pointer-events-none"
+    }
+  `}
+  style={{
+    transitionProperty: "transform, opacity",
+    willChange: "transform, opacity",
+  }}
+>
+  <div className="flex flex-col pointer-events-auto overflow-hidden pt-10 sticky top-0">
+    {sectionIds.map((id) => (
+      <div key={id} className="pl-10 my-3">
+        <button
+          onClick={() => scrollToSection(id)}
+          className={`
+            relative inline-block transition-all duration-300
+            after:content-[''] after:absolute after:left-0 after:bottom-0
+            after:h-[2px] after:bg-[#A5BADA] after:transition-all after:duration-300
+            after:origin-left after:scale-x-0
+            ${activeSection === id ? "text-[#A5BADA] underline after:scale-x-100" : ""}
+          `}
+        >
+          {id.charAt(0).toUpperCase() + id.slice(1)}
+        </button>
+      </div>
+    ))}
+  </div>
+</div>
+
+
         </nav>
       </div>
       <div className="flex flex-col">

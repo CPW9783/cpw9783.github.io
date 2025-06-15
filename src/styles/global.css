@@ -7,4 +7,5 @@ html, body {
     color: white;
     font-family: Consolas, 'Courier New', Courier, monospace;
     scroll-behavior: smooth;
+    font-weight: 500;
 }
