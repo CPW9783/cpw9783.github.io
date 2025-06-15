@@ -21,7 +21,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="animate-fadeIn opacity-0 flex flex-col px-4 sm:px-6 md:px-10 lg:px-20">
+    <div className="animate-fadeIn opacity-0 flex flex-col px-6 sm:px-6 md:px-10 2xl:px-[9rem]">
       <div className="flex w-full sticky pb-3 top-0 z-50 bg-[#09141F]">
         <nav className="flex w-full mt-3 relative z-50">
           {/* Logo */}
@@ -106,7 +106,7 @@ export default function LandingPage() {
 
         </nav>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col 2xl:px-[9rem]">
         <div id="home" className="scroll-mt-24">
           <Header />
         </div>

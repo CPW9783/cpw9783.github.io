@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
             <h1 className="text-4xl font-bold">&lt;skills/&gt;</h1>
             <div className="block mt-6 mb-14 h-[3px] w-20 bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
           </div>
-          <div className="flex flex-col justify-between lg:flex-row w-full lg:items-start gap-6 lg:gap-10 xl:px-28 gap-16">
+          <div className="flex flex-col justify-between lg:flex-row w-full lg:items-start gap-6 lg:gap-10 xl:px-10 gap-16">
             {/* Programming Section */}
             <div className="flex flex-col justify-center items-center space-y-14 2xl:ml-20">
               <h1 className="text-3xl">Programming</h1>
