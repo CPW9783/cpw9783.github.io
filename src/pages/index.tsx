@@ -56,7 +56,7 @@ export default function LandingPage() {
           </div>
 
           {/* Hamburger icon */}
-          <div className="lg:hidden flex justify-end w-full pr-6">
+          <div className="lg:hidden flex justify-end w-full pr-6 relative z-50">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-white focus:outline-none"
@@ -67,18 +67,25 @@ export default function LandingPage() {
             </button>
           </div>
 
-          {/* Overlay Menu */}
-          <div
-            className={`
+            {/* Overlay Menu */}
+            <div
+              className={`
               fixed inset-0 bg-black bg-opacity-80 text-white text-2xl 
-              flex flex-col pt-10
-              transition-transform duration-500 ease-out
-              ${isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}
+              flex flex-col 
+              transition-all duration-700 ease-[cubic-bezier(0.77,0,0.175,1)]
+              ${isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0 scale-95"}
+              pointer-events-${isMenuOpen ? "auto" : "none"}
               z-40
-            `}>
-            {sectionIds.map((id) => (
-            <div key={id} className="pl-10 my-3">
-              <button
+              `}
+              style={{
+              transitionProperty: "transform, opacity",
+              willChange: "transform, opacity",
+              }}
+            >
+            <div className="flex flex-col pointer-events-auto overflow-hidden pt-10 sticky top-0">
+              {sectionIds.map((id) => (
+              <div key={id} className="pl-10 my-3">
+                <button
                 onClick={() => scrollToSection(id)}
                 className={`
                   relative inline-block transition-all duration-300
@@ -88,10 +95,11 @@ export default function LandingPage() {
                   ${activeSection === id ? "text-[#A5BADA] underline after:scale-x-100" : ""}
                 `}>
                 {id.charAt(0).toUpperCase() + id.slice(1)}
-              </button>
+                </button>
+              </div>
+              ))}
             </div>
-          ))}
-          </div>
+            </div>
         </nav>
       </div>
       <div className="flex flex-col">
