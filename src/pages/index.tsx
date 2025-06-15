@@ -21,15 +21,18 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="flex flex-col px-4 sm:px-6 md:px-10 lg:px-20">
+    <div className="animate-fadeIn opacity-0 flex flex-col px-4 sm:px-6 md:px-10 lg:px-20">
       <div className="flex w-full sticky pb-3 top-0 z-50 bg-[#09141F]">
         <nav className="flex w-full mt-3 relative z-50">
           {/* Logo */}
-          <div className={`
+          <div
+            onClick={() => scrollToSection("home")}
+            className={`
             text-4xl 
             absolute left-1/2 transform -translate-x-1/2 
             lg:static lg:transform-none 
             lg:ml-20
+            hover:cursor-pointer hover:text-[#A5BADA]
           `}>
             [CW]
           </div>

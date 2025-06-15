@@ -1,9 +1,14 @@
 import React from "react";
 import photo from "../images/me-with-tree.png";
+import { useFadeInOnScroll } from "../utils/useFadeInOnScroll";
 
 const Contact: React.FC = () => {
+    const { ref, isVisible } = useFadeInOnScroll();
+
     return (
-        <div className="flex flex-col lg:h-screen w-full mb-10">
+        <div
+          ref={ref}
+          className={`flex flex-col lg:h-screen w-full mb-10 transition-opacity duration-700 ${isVisible ? "opacity-100 animate-fadeIn" : "opacity-0"}`}>
           <div className="flex flex-col items-center justify-center lg:mr-auto">
             <h1 className="text-4xl font-bold">&lt;contact/&gt;</h1>
             <div className="block mt-6 mb-14 h-[3px] w-20 bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>

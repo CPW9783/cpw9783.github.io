@@ -1,8 +1,13 @@
 import React from "react";
+import { useFadeInOnScroll } from "../utils/useFadeInOnScroll";
 
 const Skills: React.FC = () => {
+    const { ref, isVisible } = useFadeInOnScroll();
+
     return (
-        <div className="flex flex-col w-full items-center lg:h-screen">
+        <div
+          ref={ref}
+          className={`flex flex-col w-full items-center lg:h-screen transition-opacity duration-700 ${isVisible ? "opacity-100 animate-fadeIn" : "opacity-0"}`}>
           <div className="flex flex-col mr-auto items-center justify-center mx-auto">
             <h1 className="text-4xl font-bold">&lt;skills/&gt;</h1>
             <div className="block mt-6 mb-14 h-[3px] w-20 bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
