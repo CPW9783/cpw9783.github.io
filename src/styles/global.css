@@ -5,7 +5,8 @@
 html, body {
     background-color: #09141F;
     color: white;
-    font-family: Consolas, 'Courier New', Courier, monospace;
+    font-family: Consolas, monospace;
     scroll-behavior: smooth;
-    font-weight: 500;
+    font-size: 16px;
 }
+
