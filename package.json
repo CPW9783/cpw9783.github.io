@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -u \"github-actions[bot] <github-actions[bot]@users.noreply.github.com>\" -r https://$GITHUB_TOKEN@github.com/cpw9783/cpw9783.github.io.git",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
