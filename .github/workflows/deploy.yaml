@@ -39,6 +39,4 @@ jobs:
           GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
           GIT_COMMITTER_NAME: github-actions[bot]
           GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
-        run: |
-          GH_REPO="https://x-access-token:${GH_TOKEN}@github.com/cpw9783/cpw9783.github.io.git"
-          npx gh-pages -d public -r "$GH_REPO"
+        run: npm run deploy
