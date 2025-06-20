@@ -5,6 +5,7 @@ import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 import About from "../components/About"
 import { useSectionObserver } from "../utils/useSectionObserver";
+import { Helmet } from "react-helmet";
 
 
 export default function LandingPage() {
@@ -22,6 +23,10 @@ export default function LandingPage() {
 
   return (
     <div className="animate-fadeIn opacity-0 flex flex-col px-6 sm:px-6 md:px-10 2xl:px-[9rem]">
+      <Helmet>
+        <link rel="icon" href="/favicon.ico" />
+        <title>Christopher West</title>
+      </Helmet>
       <div className="flex w-full sticky pb-3 top-0 z-50 bg-[#09141F]">
         <nav className="flex w-full mt-3 relative z-50">
           {/* Logo */}
