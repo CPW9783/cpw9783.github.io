@@ -12,8 +12,7 @@ const Header: React.FC = () => {
           Hi! My name is,
           <br />
           <span
-            className="text-[#A5BADA] font-bold text-4xl lg:text-6xl inline-block"
-            style={{ minWidth: "400px", display: "inline-block" }} // Adjust width as needed
+            className="text-[#A5BADA] font-bold text-4xl lg:text-6xl inline-block lg:min-w-[400px] "
           >
             <Typewriter
               words={['Christopher West']}

@@ -17,6 +17,7 @@ module.exports = {
       },
       screens: {
         '3xl': '110rem',
+        '2.5xl': '100rem',
       },
     },
   },

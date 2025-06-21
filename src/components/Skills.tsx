@@ -7,12 +7,12 @@ const Skills: React.FC = () => {
     return (
         <div
           ref={ref}
-          className={`flex flex-col w-full items-center lg:h-screen transition-opacity duration-700 ${isVisible ? "opacity-100 animate-fadeIn" : "opacity-0"}`}>
+          className={`flex flex-col w-full items-center lg:min-h-screen transition-opacity duration-700 ${isVisible ? "opacity-100 animate-fadeIn" : "opacity-0"}`}>
           <div className="flex flex-col mr-auto items-center justify-center mx-auto">
             <h1 className="text-4xl font-bold">&lt;skills/&gt;</h1>
             <div className="block mt-6 mb-14 h-[3px] w-20 bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
           </div>
-          <div className="flex flex-col justify-between lg:flex-row w-full lg:items-start gap-6 lg:gap-5 3xl:px-5">
+          <div className="flex flex-col justify-around lg:flex-row w-full lg:items-start gap-6 lg:gap-5 3xl:px-5">
             {/* Programming Section */}
             <div className="flex flex-col justify-center items-center space-y-14 2xl:ml-20">
               <h1 className="text-3xl">Programming</h1>
