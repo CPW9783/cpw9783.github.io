@@ -24,6 +24,7 @@ export default function LandingPage() {
   return (
     <div className="animate-fadeIn opacity-0 flex flex-col px-6 sm:px-6 md:px-10 2xl:px-[9rem]">
       <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <title>Christopher West</title>
       </Helmet>

@@ -15,6 +15,9 @@ module.exports = {
       animation: {
         fadeIn: 'fadeIn 1s ease-out forwards',
       },
+      screens: {
+        '3xl': '110rem',
+      },
     },
   },
   plugins: [],

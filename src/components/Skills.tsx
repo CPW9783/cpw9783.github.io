@@ -12,11 +12,11 @@ const Skills: React.FC = () => {
             <h1 className="text-4xl font-bold">&lt;skills/&gt;</h1>
             <div className="block mt-6 mb-14 h-[3px] w-20 bg-gradient-to-r from-[#dbe9ff] to-[#4a5a8c]"></div>
           </div>
-          <div className="flex flex-col justify-between lg:flex-row w-full lg:items-start gap-6 lg:gap-10 xl:px-10 gap-16">
+          <div className="flex flex-col justify-between lg:flex-row w-full lg:items-start gap-6 lg:gap-5 3xl:px-5">
             {/* Programming Section */}
             <div className="flex flex-col justify-center items-center space-y-14 2xl:ml-20">
               <h1 className="text-3xl">Programming</h1>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+              <ul className="grid grid-cols-2 sm:grid-cols-3 3xl:grid-cols-4 gap-6 mt-6">
                 {[
                   { name: "Python", icon: "python.svg", link: "https://www.python.org" },
                   { name: "Java", icon: "java.svg", link: "https://www.oracle.com/java/" },
@@ -44,7 +44,7 @@ const Skills: React.FC = () => {
             {/* Tools & Frameworks Section */}
             <div className="flex flex-col justify-center items-center space-y-14 2xl:mr-20">
               <h1 className="text-3xl">Tools & Frameworks</h1>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+              <ul className="grid grid-cols-2 sm:grid-cols-3 3xl:grid-cols-4 gap-6 mt-6">
                 {[
                   { name: "React.js", icon: "react.svg", link: "https://reactjs.org/" },
                   { name: "Angular", icon: "angular.svg", link: "https://angular.io/" },

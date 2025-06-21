@@ -11,8 +11,11 @@ const Header: React.FC = () => {
         <p className="items-center text-xl lg:text-3xl">
           Hi! My name is,
           <br />
-          <span className="text-[#A5BADA] font-bold text-4xl lg:text-6xl">
-          <Typewriter
+          <span
+            className="text-[#A5BADA] font-bold text-4xl lg:text-6xl inline-block"
+            style={{ minWidth: "400px", display: "inline-block" }} // Adjust width as needed
+          >
+            <Typewriter
               words={['Christopher West']}
               cursor
               cursorStyle="_"
