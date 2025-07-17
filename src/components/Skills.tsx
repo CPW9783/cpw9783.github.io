@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
 
             {/* Tools & Frameworks Section */}
             <div className="flex flex-col justify-center items-center space-y-14 2xl:mr-20">
-              <h1 className="text-3xl">Tools & Frameworks</h1>
+              <h1 className="text-3xl text-center">Tools & Frameworks</h1>
               <ul className="grid grid-cols-2 sm:grid-cols-3 3xl:grid-cols-4 gap-6 mt-6">
                 {[
                   { name: "React.js", icon: "react.svg", link: "https://reactjs.org/" },
