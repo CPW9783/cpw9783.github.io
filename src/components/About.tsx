@@ -16,12 +16,18 @@ const About: React.FC = () => {
           <div className="flex flex-row items-center justify-center lg:mx-20">
             <img src={photo} alt="Christopher West" width={400} className="hidden xl:block mr-20 2xl:w-[300px] 3xl:w-[400px] flex-shrink-0" />
             <div className="flex flex-col space-y-7">
-              <p className="text-xl max-w-5xl">
-                Hello, I'm Christopher West, a fourth-year Software Engineering student at RIT. I recently interned as a Software Engineer at <a href="https://www.ridgelineintl.com/"
+              <p className="text-lg max-w-5xl">
+                Hello, I'm Christopher West, a fourth-year Software Engineering student at RIT. I am currently a Software Engineering Co-op at <a
+                  href="https://www.precisionot.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-[#A5BADA] hover:underline">Ridgeline International</a>
-                , where I worked as a full-stack developer. 
+                  className="font-bold text-[#A5BADA] hover:underline">Precision Optical Technologies </a>
+                 and previously interned as a Software Engineer at 
+                <a href="https://www.ridgelineintl.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-[#A5BADA] hover:underline"> Ridgeline International</a>
+                , where I worked as a full-stack developer at both companies. 
                 On campus, I serve as the president of the <a href="https://www.rit.edu/computing/coms/"
                   target="_blank"
                   rel="noopener noreferrer"

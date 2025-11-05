@@ -1,7 +1,7 @@
 import React from "react";
 import imprint from "../images/imprint.png";
 import teachme from "../images/teachme.png";
-import munsonrevenge from "../images/munsonrevenge.png";
+import locallore from "../images/locallore.png";
 import comix from "../images/comix.png";
 import nightclub from "../images/nightclub.png";
 import fuzzer from "../images/fuzzer.png";
@@ -48,15 +48,15 @@ const Projects: React.FC = () => {
                   </li>
                 </a>
                 <a
-                  href="https://devpost.com/software/munson-s-revenge"
+                  href="https://devpost.com/software/locallore"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition duration-300 transform hover:scale-105 hover:shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] rounded-2xl"
                 >
                   <li className="flex flex-col items-center w-full max-w-[400px] h-full rounded-2xl bg-[#3A5B70] p-4">
-                    <img src={munsonrevenge} alt="Munson Revenge Project" className="mt-2 max-h-[200px] object-contain" />
-                    <span className="text-xl m-2 underline font-medium">Munson Revenge</span>
-                    <p className="my-1 mx-2 text-center">AI is taking over RIT, and it’s up to the students to defend the campus. Singleplayer RPG Gameboy game with multiple classes.</p>
+                    <img src={locallore} alt="Locallore Project" className="mt-2 max-h-[200px] object-contain" />
+                    <span className="text-xl m-2 underline font-medium">LocalLore</span>
+                    <p className="my-1 mx-2 text-center">Discover hidden gems with Local Lore! Pin and explore unique spots, support local communities, and travel like a local. Find the soul of every city one gem at a time.</p>
                   </li>
                 </a>
                 <a
