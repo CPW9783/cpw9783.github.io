@@ -21,8 +21,7 @@ const About: React.FC = () => {
                   href="https://www.precisionot.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-[#A5BADA] hover:underline">Precision Optical Technologies </a>
-                 and previously interned as a Software Engineer at 
+                  className="font-bold text-[#A5BADA] hover:underline">Precision Optical Technologies</a> and previously interned as a Software Engineer at 
                 <a href="https://www.ridgelineintl.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -32,7 +31,7 @@ const About: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-bold text-[#A5BADA] hover:underline">Computer Organization for Multicultural Students (COMS)</a> and play bass as part of the band BIRCH. 
-                Outside of tech, I enjoy cooking, gaming, working out, music, and traveling. 
+                In my free time, I also enjoy cooking, gaming, working out, music, and traveling. 
                 Thanks for visiting, I hope you enjoy exploring my site and the skills and projects I’ve developed along the way!
               </p>
               <a href="/resume.pdf" download className="self-center">

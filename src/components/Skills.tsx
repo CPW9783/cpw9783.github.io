@@ -26,6 +26,7 @@ const Skills: React.FC = () => {
                   { name: "HTML", icon: "html-5.svg", link: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
                   { name: "CSS", icon: "css-3.svg", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
                   { name: "SQL", icon: "sql.svg", link: "https://en.wikipedia.org/wiki/SQL" },
+                  { name: "Golang", icon: "go.png", link: "https://golang.org/" },
                 ].map(({ name, icon, link }) => (
                   <a
                     key={name}
@@ -56,6 +57,7 @@ const Skills: React.FC = () => {
                   { name: "Spring Boot", icon: "spring.svg", link: "https://spring.io/projects/spring-boot" },
                   { name: "Gradle", icon: "gradle.svg", link: "https://gradle.org/" },
                   { name: "PostgreSQL", icon: "postgresql.svg", link: "https://www.postgresql.org/" },
+                  { name: ".NET", icon: "dotnet.svg", link: "https://dotnet.microsoft.com/" }
                 ].map(({ name, icon, link }) => (
                   <a
                     key={name}
