@@ -17,7 +17,7 @@ const About: React.FC = () => {
             <img src={photo} alt="Christopher West" width={400} className="hidden xl:block mr-20 2xl:w-[300px] 3xl:w-[400px] flex-shrink-0" />
             <div className="flex flex-col space-y-7">
               <p className="text-lg max-w-5xl">
-                Hello, I'm Christopher West, a fourth-year Software Engineering student at RIT. I am currently a Software Engineering Co-op at <a
+                Hello, I'm Christopher West, a fourth-year Software Engineering student at RIT. I was recently a Software Engineering Co-op at <a
                   href="https://www.precisionot.com/"
                   target="_blank"
                   rel="noopener noreferrer"
